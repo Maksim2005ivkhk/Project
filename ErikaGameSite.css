@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	width: 100%;    
+	height: 420px;
+	color: white;
+}
+
+header {
+    background-color: black;
+    color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 10)), 
+		url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size: cover;
+}
+
+.hero {
+    position: relative;
+    height: 400px;
+    background: url('hero-background.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    z-index: 1;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    background-color:black;
+    margin: 5px;
+    border-radius: 8px;
+	
+}
+
+/* Add this style inside your existing CSS file */
+
+.image-slider {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image img {
+    max-width: 100%;
+    max-height: 400px;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.side-images img {
+    width: 250px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.side-images img:hover {
+    transform: scale(1.2);
+}
+/* Add this style inside your existing CSS file */
+
+#countdown-container {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+}
+/* Add this style inside your existing CSS file */
+
+.site-evaluation {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+#rating-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #808080; /* Change the color for the selected dot */
+}
+
+.evaluation-result {
+    font-weight: bold;
+}
+
+/* Add this style inside your existing CSS file */
+
+/* Existing styles */
+
+.site-evaluation {
+    text-align: center;
+    padding: 20px;
+    background-color: #292929;
+}
+
+#rating-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #808080; /* Change the color for the selected dot */
+}
+
+.evaluation-result {
+    font-weight: bold;
+}
+
+/* New styles for Site Info, Contact Info, Email Form, and Google Map sections */
+
+.site-info,
+.contact-info,
+.email-form,
+.google-map {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.site-info h2,
+.contact-info h2,
+.email-form h2,
+.google-map h2 {
+    margin-bottom: 20px;
+}
+
+.site-info p,
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.email-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-form label,
+.email-form textarea,
+.email-form input {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.email-form textarea {
+    height: 100px;
+}
+
+.email-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none
+}
+#buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+	background-image: url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size:cover;
+    color: white;
+}
+
+/* Reset some default browser styles */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Color change animation */
+@keyframes colorChange {
+    0% {
+        background-color: #3498db; /* Start color */
+    }
+    50% {
+        background-color: #e74c3c; /* Middle color */
+    }
+    100% {
+        background-color: #2ecc71; /* End color */
+    }
+}
+
+.color-changing-btn {
+    background-color: #12323db; /* Initial color */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease; /* Add transition for smoother effect */
+    animation: colorChange 25s infinite alternate; /* Apply color change animation */
+	 border-radius: 5px;
+}
+.color-changing-btn2 {
+    background-color: #3498db; /* Initial color */
+    color: white;
+    padding: 16px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Add transition for smoother effect */
+    animation: colorChange 17s infinite alternate; /* Apply color change animation */
+	 border-radius: 5px;
+	 display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.color-changing-btn2:hover {
+	background-image: url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size:cover;
+    color: white;
+}
+
+a{
+
+text-decoration: none;
+}
+a:hover{
+
+text-decoration: none;
+}
+a:visited{
+
+text-decoration: none;
+}
+a:active{
+text-decoration: none;

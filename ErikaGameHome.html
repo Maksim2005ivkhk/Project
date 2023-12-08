@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ErikaGameSite.css">
+    <title>Modern Homepage</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="ErikaGame.html">Home</a></li>
+                <li><a href="MainMenu.html">About</a></li>
+                <li><a href="#element">Contact</a></li>
+            </ul>
+        </nav>
+		
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1>Welcome to ErikaGameProject</h1>
+				<img src="https://pbs.twimg.com/media/F3H68pQXQAAARws?format=jpg&name=large" width="850" height="300" alt="LogoMenu">
+                <p>04.12.2023</p>
+            </div>
+        </section>
+		<div id="buttons">
+            <a href="ErikaGame.html" class="color-changing-btn2">Website</a>
+            <a href="Registration.html" class="color-changing-btn2">Registration</a>
+			<a href="InfoGame.html" class="color-changing-btn2">Heroes</a>
+            <a href="Registration.html" class="color-changing-btn2">Game</a>
+			<a href="Registration.html" class="color-changing-btn2">Registration </a>
+        </div>
+<!-- Add this div inside your existing <body> tag, where you want to display the countdown -->
+
+<div id="countdown-container">
+    The game will go on sale: <span id="countdown">14 </span> years.
+</div>
+
+	<section id="products">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/52/34/1d/52341dd239c49d1a1d67f130cb1a8d10.jpg" width="320" height="215" alt="Product 1">
+            <h2>Erika</h2>
+            <p>Regular game edition </p>
+            <span>$29.99</span>
+            <button class="color-changing-btn">Add to Cart</button>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+
+
+
+        <section class="features">
+            <div class="feature" id="clock">
+                <h2>Your time </h2>
+                <div id="clockDisplay"></div>
+				<img src= "https://starwars-galaxy.ru/800/600/https/img-fotki.yandex.ru/get/9068/200418627.104/0_1552bd_58d06470_orig.png" width="200" height="200" alt="Time">
+            </div>
+
+            <div class="feature" id="form">
+                <h2>Your contacts </h2>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="feature" id="imageSlider">
+                <h2>Initial phase </h2>
+				<img src="https://i.pinimg.com/564x/47/9d/96/479d961be8f9a9bb0af83a6fb3a37967.jpg" width="320" height="215" alt="Monster">
+           
+        </section>
+    </main>
+	
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+	
+	
+	<!-- Add this section inside your existing <body> tag, right after the existing content -->
+
+<section class="image-slider">
+    <div class="slider-container">
+        <div class="main-image">
+            <img src="https://i.pinimg.com/564x/f3/91/8e/f3918e1353390df19b01c82864b49dc3.jpg" alt="EestiSolider">
+        </div>
+        <div class="side-images"><h2>Posters</h2>
+            <img class="side-image" src="https://i.pinimg.com/564x/4b/3d/78/4b3d7810c71307c5e74b0cebebb266ba.jpg" alt="Erika">
+            <img class="side-image" src="https://i.pinimg.com/564x/7e/b5/43/7eb543cea28cd04e51a7d07f9f2e5737.jpg" alt="Katja">
+            <img class="side-image" src="https://i.pinimg.com/564x/f6/95/2f/f6952f9923b81110726a3675c671e94d.jpg" alt="Robot">
+        </div>
+    </div>
+</section>
+
+
+
+ <main><!-- Your existing content goes here -->
+
+        <!-- Site Info Section -->
+        <section class="site-info">
+            <h2>Site Information </h2>
+            <p>Our site does not require you to support us financially we do not ask you for money or anything like that! Our site is created solely to explain the story of the game its sale and its development. Now there is one person in the team and the duration of development will be very long our goal is to create a game while my idea is still alive and exists until I die.</p>
+            <!-- Add more content about the site here -->
+			<p>Our game will be realized in any case and our task is to convey all emotions at the highest level. There will be no pre-orders we consider it a part of fraud and the game can be bought only when it will be released.</p>
+			<p>Last date of site page update: 04.12.2023</p>
+        </section>
+		
+        <!-- Contact Info Section -->
+        <section class="contact-info">
+		<div id="element">
+            <h2>Feedback</h2>
+            <p>Support is only available 24 hours a day</p>
+            <ul>
+                <li>Email: erikagameproject@gmail.com</li>
+                <li>Phone: +372 5847 0780</li>
+                <li>Address: Narva</li>
+            </ul>
+			</div>
+        </section>
+
+        <!-- Email Form Section -->
+        <section class="email-form">
+            <h2>Inquiry </h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Google Map Section -->
+        <section class="google-map">
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d130099.94950221779!2d27.94532387477805!3d59.369481338443975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469437d78b66b087%3A0xb94a2a5f4d7d21f4!2z0J3QsNGA0LLQsA!5e0!3m2!1sru!2see!4v1701631619376!5m2!1sru!2see" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+		
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+
+
+
+
+
+
+ <!-- Your existing content goes here -->
+
+        <!-- Site Evaluation Section -->
+        <section class="site-evaluation">
+            <h2>Our website </h2>
+            <p>Did you like our site?</p>
+            <div id="rating-container">
+                <span class="dot" data-rating="1"></span>
+                <span class="dot" data-rating="2"></span>
+                <span class="dot" data-rating="3"></span>
+                <span class="dot" data-rating="4"></span>
+                <span class="dot" data-rating="5"></span>
+            </div>
+            <p class="evaluation-result">Your Rating: <span id="selected-rating">0</span></p>
+        </section>
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+	
+</body>
+</html>

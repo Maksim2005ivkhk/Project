@@ -1,0 +1,382 @@
+
+ /* styles.css */
+ 
+
+body {
+	width: 100%;    
+	height: 420px;
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 10)), 
+		url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;    
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #000;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+#video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#language-options {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.language-option {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+	background-image: url(https://pbs.twimg.com/profile_banners/1683261652827774977/1701549700/1500x500);
+	background-size:cover;
+    color: white;
+}
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+}
+
+
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #000;
+    color: white;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.45s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+	background-color:black;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #C0C0C0;
+}
+
+main {
+    padding: 60px 20px 20px; /* Adjust the top padding based on the header height */
+	
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.animated-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+    background-color: #C0C0C0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    opacity: 0.8;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.animated-button:hover {
+    background-color: #fff;
+    color: #000;
+    opacity: 1;
+}
+
+
+
